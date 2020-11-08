@@ -17,7 +17,7 @@ class ContainerProductNormalizer implements NormalizerInterface, CacheableSuppor
             'product_id' => $object->getProductId(),
             'quantity' => $object->getQuantity(),
         ];
-        // Here: add, edit, or delete some data
+
 
         return $data;
     }

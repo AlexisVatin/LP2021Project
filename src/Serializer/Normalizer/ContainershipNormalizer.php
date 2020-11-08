@@ -16,9 +16,9 @@ class ContainershipNormalizer implements NormalizerInterface, CacheableSupportsM
             'captain_name' => $object->getCaptainName(),
             'containter_limit' => $object->getContainerLimit(),
         ];
-        // Here: add, edit, or delete some data
 
-        return $data;
+
+       return $data;
     }
 
     public function supportsNormalization($data, string $format = null): bool

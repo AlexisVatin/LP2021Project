@@ -18,9 +18,7 @@ class ContainerNormalizer implements NormalizerInterface, CacheableSupportsMetho
             'containership_id' => $object->getContainerShipId(),
         ];
 
-        // Here: add, edit, or delete some data
-
-        return $data;
+       return $data;
     }
 
     public function supportsNormalization($data, string $format = null): bool

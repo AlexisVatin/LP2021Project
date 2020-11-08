@@ -18,8 +18,6 @@ class ContainerModelNormalizer implements NormalizerInterface, CacheableSupports
             'width' => $object->getWidth(),
         ];
 
-        // Here: add, edit, or delete some data
-
         return $data;
     }
 
